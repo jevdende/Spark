@@ -1,6 +1,6 @@
-# French Gas Price Prediction with Apache Spark ML
+# French Gas Price Prediction with Spark
 
-A comprehensive machine learning project analyzing and predicting gas prices across France (2022-2024) using Apache Spark and PySpark ML. This project processes over 12 million records to forecast fuel prices using both Linear Regression and Random Forest models.
+A comprehensive machine learning project analyzing and predicting gas prices across France (2022-2024) using PySpark. This project processes over 12 million records to forecast fuel prices using both Linear Regression and Random Forest models.
 
 ## 📊 Project Overview
 
@@ -114,3 +114,17 @@ jupyter notebook Spark_project.ipynb
 **Jesse van der Ende**
 - ENSAI Student
 - Course: IT Tools 2 - Spark
+
+## 📄 License
+
+This project is for educational purposes.
+
+## 🙏 Acknowledgments
+
+- Data source: French government gas price database
+- Course: ENSAI IT Tools 2
+- Geographic data: gregoiredavid/france-geojson
+
+---
+
+**Note**: Data files (`gas_price_data/`), generated plots (`plots/`), and maps (`maps/`) are excluded from the repository due to size constraints. Run the notebook to generate these locally.
